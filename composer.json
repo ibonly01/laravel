@@ -39,8 +39,7 @@
         "post-install-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
             "php artisan optimize",
-            "php artisan clear-compiled",
-            "php artisan voyager:install --with-dummy"
+            "php artisan clear-compiled"
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
