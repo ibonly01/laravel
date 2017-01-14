@@ -17,3 +17,5 @@ Route::get('/', 'MainController@home');
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+Route::get('/{slug}', 'MainController@content');

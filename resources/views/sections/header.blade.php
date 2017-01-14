@@ -42,9 +42,9 @@
                             <nav role="navigation" class="collapse navbar-collapse navbar main-nav">
                                <ul class="nav navbar-nav navbar-left">
                                   <li><a href="/">Home</a></li>
-                                  {{-- @foreach($menus as $menu)
+                                  @foreach($menus as $menu)
                                 	<li><a href="{{ $menu->slug }}">{{ $menu->title }}</a></li>
-                                  @endforeach --}}
+                                  @endforeach
                                   {{-- 
                                   <li class="dropdown"><a href="service.html">Services</a>
                                         <ul class="dropdown-menu">

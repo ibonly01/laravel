@@ -60,6 +60,7 @@ head
 
                 <!-- .container-->
                 @yield('slider')
+                @yield('breadcrumb')
                 <!-- .container-fluid-->
                 @yield('content')
                 <!-- .container-->
