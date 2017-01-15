@@ -18,7 +18,7 @@
                 </h3>
 
                 <div class="history-details">
-                    {!! $content->body !!}
+                    {!! $content->body !!g}
                 </div>
             </div>
         </div>

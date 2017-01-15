@@ -5,8 +5,8 @@
 				<div class="page-title">
 					<h2>About</h2>
 					<ul class="breadcrumb">
-					   <li><a href="index.html">Home</a></li>
-					   <li class="active">about us</li>
+					   <li><a href="/">Home</a></li>
+					   <li class="active">{{ $content->title }}</li>
 					</ul>
 				</div>
 			</div>
